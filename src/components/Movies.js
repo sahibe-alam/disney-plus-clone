@@ -2,6 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 import  m1 from "../Utils/images/m1.jpeg"
 import  m2 from "../Utils/images/m2.jpg"
+import  m3 from "../Utils/images/m3.jpg"
+import  m4 from "../Utils/images/m4.jpg"
+import  m5 from "../Utils/images/m5.jpg"
+import  m6 from "../Utils/images/m6.jpg"
+import  m7 from "../Utils/images/m7.jpg"
+
 
 function Movies() {
     // const[
@@ -15,25 +21,25 @@ function Movies() {
                 <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/drama-movie-poster-template-design-990b4132e1c3ec24bb4c4f8261d8d69c.jpg?ts=1596691256" alt="" />
             </Wrap>
             <Wrap>
-                <img src="" alt="" />
+                <img src= {m1} alt="" />
             </Wrap>
             <Wrap>
-                <img src={m1} alt="" />
+                <img src= {m2} alt="" />
             </Wrap>
             <Wrap>
-                <img src={m2} alt="" />
+                <img src={m3} alt="" />
             </Wrap>
             <Wrap>
-                <img src="https://sahibe190.github.io/disney-plus-clone/images/m4.JPG" alt="" />
+                <img src={m4} alt="" />
             </Wrap>
             <Wrap>
-                <img src="https://sahibe190.github.io/disney-plus-clone/images/m5.JPG" alt="" />
+                <img src={m5} alt="" />
             </Wrap>
             <Wrap>
-                <img src="https://sahibe190.github.io/disney-plus-clone/images/m6.JPG" alt="" />
+                <img src={m6} alt="" />
             </Wrap>
             <Wrap>
-                <img src="https://sahibe190.github.io/disney-plus-clone/images/m6.JPG" alt="" />
+                <img src={m7} alt="" />
             </Wrap>
             </Content>
             

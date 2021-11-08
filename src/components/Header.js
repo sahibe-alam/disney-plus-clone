@@ -1,30 +1,39 @@
 import React from 'react'
 import styled from 'styled-components'
+import  p1 from "../Utils/images/logo.svg"
+import  p2 from "../Utils/images/search-icon.svg"
+import  p3 from "../Utils/images/watchlist-icon.svg"
+import  p4 from "../Utils/images/search-icon.svg"
+import  p5 from "../Utils/images/series-icon.svg"
+// import  p6 from "../Utils/images/search-icon.svg"
+// import  p7 from "../Utils/images/search-icon.svg"
+// import  p8 from "../Utils/images/search-icon.svg"
+// import  p9 from "../Utils/images/search-icon.svg"
 function Header() {
     return (
         <Nav>
 
             
-            <Logo src="/images/logo.svg" />
+            <Logo src={p1} />
             <NavMenu>
                 <a>
                     <img src="https://raw.githubusercontent.com/sahibe190/disney-plus-clone/0a2e428059db7e7547fc54c8b69bcdc513dff1c2/images/home-icon.svg" />
                     <span>Home</span>
                 </a>
                 <a>
-                    <img src="/images/search-icon.svg" />
+                    <img src={p2} />
                     <span>SEARCH</span>
                 </a>
                 <a>
-                    <img src="/images/watchlist-icon.svg" />
+                    <img src={p3} />
                     <span>WATCHLIST</span>
                 </a>
                 <a>
-                    <img src="/images/original-icon.svg" />
+                    <img src={p4} />
                     <span>ORIGINALS</span>
                 </a>
                 <a>
-                    <img src="/images/series-icon.svg" />
+                    <img src={p5} />
                     <span>SEARIES</span>
                 </a>
             </NavMenu>

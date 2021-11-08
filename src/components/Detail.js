@@ -1,10 +1,16 @@
 import React from 'react'
 import styled from 'styled-components'
+import  p1 from "../Utils/images/769775.jpg"
+// import  p1 from "../Utils/images/nnnnn"
+// import  p1 from "../Utils/images/nnnnn"
+// import  p1 from "../Utils/images/nnnnn"
+// import  p1 from "../Utils/images/nnnnn"
+
 function Detail() {
     return (
         <Container>
             <Background>
-                <img src="/images/769775.jpg" alt="" />
+                <img src={p1} alt="" />
             </Background>
             <Controls>
                 <PlayButton>

@@ -1,22 +1,27 @@
 import React from 'react'
 import styled from 'styled-components'
+import  m1 from "../Utils/images/viewers-disney.png"
+import  m2 from "../Utils/images/viewers-pixar.png"
+import  m3 from "../Utils/images/viewers-marvel.png"
+import  m4 from "../Utils/images/viewers-starwars.png"
+import  m5 from "../Utils/images/viewers-national.png"
 function Viewers() {
     return (
         <Container>
            <Wrap>
-               <img src= "/images/viewers-disney.png" />
+               <img src={m1} />
            </Wrap>
            <Wrap>
-               <img src= "/images/viewers-pixar.png" />
+               <img src= {m2} />
            </Wrap>
            <Wrap>
-               <img src= "/images/viewers-marvel.png" />
+               <img src={m3} />
            </Wrap>
            <Wrap>
-               <img src= "/images/viewers-starwars.png" />
+               <img src= {m4} />
            </Wrap>
            <Wrap>
-               <img src= "/images/viewers-national.png" />
+               <img src= {m5} />
            </Wrap>
         </Container>
     )
