@@ -9,10 +9,10 @@ function Movies() {
                 <img src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/drama-movie-poster-template-design-990b4132e1c3ec24bb4c4f8261d8d69c.jpg?ts=1596691256" alt="" />
             </Wrap>
             <Wrap>
-                <img src="https://raw.githubusercontent.com/sahibe190/disney-plus-clone/gh-pages/images/m1.jpeg" alt="" />
+                <img src="" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/m2.JPG " alt="" />
+                <img src="https://raw.githubusercontent.com/sahibe190/disney-plus-clone/gh-pages/images/m1.jpeg" alt="" />
             </Wrap>
             <Wrap>
                 <img src="/images/m3.JPG " alt="" />
