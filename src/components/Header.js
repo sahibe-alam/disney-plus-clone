@@ -8,7 +8,7 @@ function Header() {
             <Logo src="/images/logo.svg" />
             <NavMenu>
                 <a>
-                    <img src="/images/home-icon.svg" />
+                    <img src="https://raw.githubusercontent.com/sahibe190/disney-plus-clone/0a2e428059db7e7547fc54c8b69bcdc513dff1c2/images/home-icon.svg" />
                     <span>Home</span>
                 </a>
                 <a>
