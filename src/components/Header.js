@@ -5,7 +5,7 @@ import  p2 from "../Utils/images/search-icon.svg"
 import  p3 from "../Utils/images/watchlist-icon.svg"
 import  p4 from "../Utils/images/search-icon.svg"
 import  p5 from "../Utils/images/series-icon.svg"
-// import  p6 from "../Utils/images/search-icon.svg"
+import  p6 from "../Utils/images/user-icon.png"
 // import  p7 from "../Utils/images/search-icon.svg"
 // import  p8 from "../Utils/images/search-icon.svg"
 // import  p9 from "../Utils/images/search-icon.svg"
@@ -37,7 +37,7 @@ function Header() {
                     <span>SEARIES</span>
                 </a>
             </NavMenu>
-            <UserImg src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/2048px-User_icon_2.svg.png" />
+            <UserImg src={p6} />
         </Nav>
     )
 }
@@ -103,9 +103,11 @@ a {
 }
 `
 const UserImg = styled.img`
-width: 48px;
-height: 48px;
+width: 30px;
+height: 30px;
 cursor: pointer;
-padding: 10px;
+margin-top: 20px;
+
+
 
 `

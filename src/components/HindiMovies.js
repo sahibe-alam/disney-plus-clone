@@ -5,34 +5,57 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import  badging from "../Utils/images/slider-badging.jpg"
 import  pic1 from "../Utils/images/slider-badag.jpg"
-function ImgSlider() {
+
+function HindiMovies() {
     let settings = {
         dots: true,
-        infinite: true,
-        speed: 500,
         autoplaySpeed: 1500,
-        slidesToShow: 1,
+
+        infinite: true,
+        speed: 600,
+        slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true
+        
+
         
 
     }
     return (
         <Carousel {...settings} >
 
-            <Wrap>
-                <img src={badging} alt="" />
-            </Wrap>
-            <Wrap>
-                <img src={pic1} alt="" />
-            </Wrap>
-        </Carousel>
+        <Wrap>
+            <img src={badging} alt="" />
+        </Wrap>
+        <Wrap>
+            <img src={pic1} alt="" />
+        </Wrap>
+        <Wrap>
+            <img src={badging} alt="" />
+        </Wrap>
+        <Wrap>
+            <img src={pic1} alt="" />
+        </Wrap>
+        <Wrap>
+            <img src={badging} alt="" />
+        </Wrap>
+        <Wrap>
+            <img src={pic1} alt="" />
+        </Wrap>
+        <Wrap>
+            <img src={badging} alt="" />
+        </Wrap>
+        <Wrap>
+            <img src={pic1} alt="" />
+        </Wrap>
+    </Carousel>
     )
 }
 
-export default ImgSlider
-
+export default HindiMovies
 const Carousel = styled(Slider)`
+overflow-x: hidden;
+overflow-y: hidden;
 margin-top: 20px;
  ul li button{
      &:before{
