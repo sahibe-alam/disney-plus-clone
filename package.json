@@ -1,5 +1,6 @@
 {
   "name": "disney-plus-clone",
+  "homepage": "http://sahibe190.github.io/disney-plus-clone",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -17,6 +18,8 @@
     "styled-components": "^5.3.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
