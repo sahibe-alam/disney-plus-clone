@@ -1,6 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
+import  m1 from "../Utils/images/m1.jpeg"
+import  m2 from "../Utils/images/m2.jpg"
+
 function Movies() {
+    // const[
+
+    // ]
     return (
         <Container>
             <h4>Recommended For You</h4>
@@ -12,22 +18,22 @@ function Movies() {
                 <img src="https://raw.githubusercontent.com/sahibe190/disney-plus-clone/gh-pages/images/m1.jpeg" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/m2.JPG " alt="" />
+                <img src={m1} alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/m3.JPG " alt="" />
+                <img src={m2} alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/m4.JPG" alt="" />
+                <img src="https://sahibe190.github.io/disney-plus-clone/images/m4.JPG" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/m5.JPG" alt="" />
+                <img src="https://sahibe190.github.io/disney-plus-clone/images/m5.JPG" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/m6.JPG" alt="" />
+                <img src="https://sahibe190.github.io/disney-plus-clone/images/m6.JPG" alt="" />
             </Wrap>
             <Wrap>
-                <img src="/images/m6.JPG" alt="" />
+                <img src="https://sahibe190.github.io/disney-plus-clone/images/m6.JPG" alt="" />
             </Wrap>
             </Content>
             
